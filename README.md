@@ -69,6 +69,19 @@ Text Summarization Project
 ### Frontend Setup
 #### Prerequisites:
 - Node.js and npm
+   ```sh
+   <!-- On window 10/11: -->
+   <!-- Install Node.js and npm -->
+   winget install OpenJS.NodeJS
+
+   <!-- Check -->
+   node -v
+   npm -v
+
+   <!-- If got blocked by shell: try these code then reset -->
+   Get-Command node -ErrorAction SilentlyContinue
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+   ```
 
 #### Steps:
 1. Navigate to the frontend folder:
