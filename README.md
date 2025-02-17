@@ -46,6 +46,7 @@ Text Summarization Project
    ```sh
    python -m venv venv
    source venv/bin/activate  
+   
    <!-- On Windows use:  -->
    python -m venv venv
    venv\Scripts\activate
@@ -54,16 +55,8 @@ Text Summarization Project
    ```sh
    pip install -r requirements.txt
    ```
-4. Download and set up the PEGASUS model:
-   ```sh
-   mkdir models
-   cd models
-   wget https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/pytorch_model.bin
-   wget https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/config.json
-   wget https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/spiece.model
-   cd ..
-   ```
-5. Run the backend server:
+
+4. Run the backend server:
    ```sh
    python app.py
    ```
@@ -73,6 +66,8 @@ Text Summarization Project
 #### Prerequisites:
 - Node.js and npm
    ```sh
+   <!-- Recommend same environment as backend -->
+   
    <!-- On window 10/11: -->
    <!-- Install Node.js and npm -->
    winget install OpenJS.NodeJS
