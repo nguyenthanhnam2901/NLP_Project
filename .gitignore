@@ -59,3 +59,6 @@ build/Release/
 # Optional lock files (uncomment if you don't want to track these)
 # package-lock.json
 # yarn.lock
+
+pegasus-samsum
+pegasus-samsum-model
