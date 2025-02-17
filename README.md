@@ -28,6 +28,9 @@ Text Summarization Project
 
 ## Setup and Installation
 
+### Download model (if train) or Checkpoint (if use right away) 
+- https://drive.google.com/drive/folders/17arjGx9-NPU-AdxjuZGrGkwvYNlzjZcn?usp=sharing
+
 ### Backend Setup
 #### Prerequisites:
 - Python 3.8+
